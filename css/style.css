@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'Hind Siliguri', sans-serif;
+	line-height: 1.6;
+	/*height: 200vh;*/
+}
+
+header{
+	background-color: #33000091;
+	height: 80vh;
+	background-image: url(../images/cover.png);
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.navbar{
+	
+background-color: #fff !important;
+	
+border-radius: 5px;
+	
+top: 50px;
+	
+width: 110%;
+	
+left: -60px;
+}
+.navbar a {
+	color: #960014 !important;
+}
+
+/*dropdown*/
+
+.nav-item.dropdown{
+	transition: all 0.3s ease;
+}
+
+
+
+.dropdown-menu {
+   
+    display: block;
+    transform: translateY(100px);
+    transition: all 0.3s ease;
+    visibility: hidden;
+    opacity: 0
+
+
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+   
+    display: block;
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav-item.dropdown.megamenu {
+	width: 100%;
+	position: static;
+}
+.nav-item.dropdown.megamenu .dropdown-menu{
+    
+    border-radius: 10px;
+}
+.nav-item.dropdown.megamenu:hover .dropdown-menu {
+	width: 100%;
+	top: 96%;
+}
+
+.megamenu .row{
+	margin: 0;
+	padding: 10px 0;
+	
+}
+
+/*dropdown*/
+
+
+/*TAB*/
+
+section{
+	padding-bottom: 50px;
+}
+
+.tab-section{
+
+background: white;
+
+box-shadow: 0 0 20px 10px #0e0e0e26;
+
+max-width: 80%;
+
+margin-top: -10%;
+
+border-radius: 5px;
+}
+
+.tab-section nav{
+	padding-top: 50px;
+}
+
+.nav-tabs {
+    border-bottom: 0 !important;
+}
+.nav-tabs .nav-link {
+    background-color: #ff00001a;
+    margin: 0 5px;
+    text-align: center;
+    display: block;
+}
+
+
+.nav-tabs .nav-link img{
+	
+max-width: 70%;
+}
+
+
+.tab-section .tab-content{
+	margin: 25px;
+}
+
+.tab-section .tab-content .row{
+    padding-bottom: 50px;
+}
+.tab-section .tab-content .row h2{
+    color: #960014;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.tab-section .tab-content .row p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.tab-section .tab-content .row h1{text-align: center;font-weight: 700;font-size: 65px;color: #960014;}
+.tab-section .tab-content .row h4{
+    padding: 15px 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tab-section .tab-content .row h3{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color: #960014;
+}
+
+
+
+
+footer {
+  
+color: #fff;
+  
+font-size: 15px;
+  
+background-image: url(../images/cover.png);
+  
+background-blend-mode: overlay;
+  
+background-repeat: no-repeat;
+  
+background-position: left;
+  
+background-size: 50%;
+  
+border-top: 10px solid #F44336 !important;
+  
+background-color: #330000;
+  }
+  footer h5 {
+    font-weight: 600; }
+  footer .copyright {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 50px; }
+    footer .copyright a {
+      color: #ffd400 !important;
+      text-decoration: none;
+      }
+      footer .copyright a:hover {
+        color: #fff !important; }
